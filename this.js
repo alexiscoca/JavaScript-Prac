@@ -5,14 +5,14 @@
 
 const user = {
     name : "Memo",
-    lastName : "Herrera",
+    lastName : "Herre",
     age : 21 ,
     showFullName() {
-        return this.name + " " + this.lastName   
-    }                                               
+        return this.name + " " + this.lastName
+    }
 }
 
-console.log(user.showFullName)      /* esto va  a imprimir el valor que tomen las propiedades de "name" y "lastName" 
+console.log(user.showFullName)      /* esto va  a imprimir el valor que tomen las propiedades de "name" y "lastName"
                                         en este caso imprime "Memo Herrera"  */
 
 
