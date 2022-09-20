@@ -21,7 +21,9 @@ const keps = new Person("Keps", "Herre")
 Person.prototype.greet = function() {
     return "Hello I'am " + this.name
 }
-Person.prototype.age = function() {         //Con el Person.prototype estamos añadiendo un metodo al Objeto Person, no al constructor   
+
+//Con el Person.prototype estamos añadiendo un metodo al Objeto Person, no al constructor
+Person.prototype.age = function() {            
     return "and i am" + " " + 21
 }
 console.log(alexis.greet())
